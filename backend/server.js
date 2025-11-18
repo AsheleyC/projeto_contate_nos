@@ -31,7 +31,7 @@ server.post('/contate', async (req, res) => {
             return res.json({ "resposta": "E-mail inválido" })
         } else if (email.includes(' ') == true) {  // includes verifica se algo existe dentro de uma string
             return res.json({ "resposta": "E-mail inválido" })
-        } else if (telefone.length != 0 && telefone.length < 11 && telefone.length >11){
+        } else if (telefone.length != 0 && telefone.length < 11){
             return res.json({ "resposta": "Adicione um número de telefone válido!" })
         }
 
