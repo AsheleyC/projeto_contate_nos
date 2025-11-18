@@ -1,0 +1,28 @@
+body {
+    justify-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.dados {
+    background-color: #E1BEE7;
+    padding: 15px;
+    border-radius: 15px;
+
+    width: 65%;
+
+    margin: 20px auto;
+    text-align: center;
+    border: 5px #9C27B0 solid;
+    border-radius: 20px;
+}
+
+.resultado{
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
+}
